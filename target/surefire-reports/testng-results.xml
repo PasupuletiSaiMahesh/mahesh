@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[LE_003-> on test Start]]>
+    </line>
+    <line>
+      <![CDATA[LE_003-> on test Success]]>
+    </line>
+    <line>
+      <![CDATA[Demo-> on test Start]]>
+    </line>
+    <line>
+      <![CDATA[Demo-> on test Success]]>
+    </line>
+    <line>
+      <![CDATA[LE_001-> on test Start]]>
+    </line>
+    <line>
+      <![CDATA[LE_001-> on test Success]]>
+    </line>
+    <line>
+      <![CDATA[con_001-> on test Start]]>
+    </line>
+    <line>
+      <![CDATA[con_001-> on test Success]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-03-26T15:21:44 IST" name="Suite" finished-at="2025-03-26T15:23:33 IST" duration-ms="109215">
+    <groups>
+    </groups>
+    <test started-at="2025-03-26T15:21:44 IST" name="Test" finished-at="2025-03-26T15:23:33 IST" duration-ms="109215">
+      <class name="testCaseRepo.TC_001">
+        <test-method is-config="true" signature="lanchBrowser()[pri:0, instance:testCaseRepo.TC_001@7b9a4292]" started-at="2025-03-26T15:22:20 IST" name="lanchBrowser" finished-at="2025-03-26T15:22:23 IST" duration-ms="2806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanchBrowser -->
+        <test-method is-config="true" signature="loginOperation()[pri:0, instance:testCaseRepo.TC_001@7b9a4292]" started-at="2025-03-26T15:22:23 IST" name="loginOperation" finished-at="2025-03-26T15:22:28 IST" duration-ms="4600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginOperation -->
+        <test-method signature="Demo()[pri:0, instance:testCaseRepo.TC_001@7b9a4292]" started-at="2025-03-26T15:22:28 IST" name="Demo" finished-at="2025-03-26T15:22:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Demo-> on test Start]]>
+            </line>
+            <line>
+              <![CDATA[Demo-> on test Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method is-config="true" signature="signOutOperation()[pri:0, instance:testCaseRepo.TC_001@7b9a4292]" started-at="2025-03-26T15:22:28 IST" name="signOutOperation" finished-at="2025-03-26T15:22:35 IST" duration-ms="7024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOutOperation -->
+        <test-method is-config="true" signature="loginOperation()[pri:0, instance:testCaseRepo.TC_001@7b9a4292]" started-at="2025-03-26T15:22:35 IST" name="loginOperation" finished-at="2025-03-26T15:22:39 IST" duration-ms="4929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginOperation -->
+        <test-method signature="LE_001()[pri:0, instance:testCaseRepo.TC_001@7b9a4292]" started-at="2025-03-26T15:22:39 IST" name="LE_001" finished-at="2025-03-26T15:22:59 IST" duration-ms="19126" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[LE_001-> on test Start]]>
+            </line>
+            <line>
+              <![CDATA[LE_001-> on test Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LE_001 -->
+        <test-method is-config="true" signature="signOutOperation()[pri:0, instance:testCaseRepo.TC_001@7b9a4292]" started-at="2025-03-26T15:22:59 IST" name="signOutOperation" finished-at="2025-03-26T15:23:01 IST" duration-ms="2789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOutOperation -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:testCaseRepo.TC_001@7b9a4292]" started-at="2025-03-26T15:23:01 IST" name="CloseBrowser" finished-at="2025-03-26T15:23:02 IST" duration-ms="648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- testCaseRepo.TC_001 -->
+      <class name="testCaseRepo.TC_003">
+        <test-method is-config="true" signature="dbConnection()[pri:0, instance:testCaseRepo.TC_003@4466af20]" started-at="2025-03-26T15:21:44 IST" name="dbConnection" finished-at="2025-03-26T15:21:44 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dbConnection -->
+        <test-method is-config="true" signature="lanchBrowser()[pri:0, instance:testCaseRepo.TC_003@4466af20]" started-at="2025-03-26T15:21:44 IST" name="lanchBrowser" finished-at="2025-03-26T15:21:48 IST" duration-ms="4017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanchBrowser -->
+        <test-method is-config="true" signature="loginOperation()[pri:0, instance:testCaseRepo.TC_003@4466af20]" started-at="2025-03-26T15:21:48 IST" name="loginOperation" finished-at="2025-03-26T15:21:53 IST" duration-ms="5042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginOperation -->
+        <test-method signature="LE_003()[pri:0, instance:testCaseRepo.TC_003@4466af20]" started-at="2025-03-26T15:21:53 IST" name="LE_003" finished-at="2025-03-26T15:22:17 IST" duration-ms="23539" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[LE_003-> on test Start]]>
+            </line>
+            <line>
+              <![CDATA[LE_003-> on test Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LE_003 -->
+        <test-method is-config="true" signature="signOutOperation()[pri:0, instance:testCaseRepo.TC_003@4466af20]" started-at="2025-03-26T15:22:17 IST" name="signOutOperation" finished-at="2025-03-26T15:22:20 IST" duration-ms="2819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOutOperation -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:testCaseRepo.TC_003@4466af20]" started-at="2025-03-26T15:22:20 IST" name="CloseBrowser" finished-at="2025-03-26T15:22:20 IST" duration-ms="400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="closeDBConnection()[pri:0, instance:testCaseRepo.TC_003@4466af20]" started-at="2025-03-26T15:23:34 IST" name="closeDBConnection" finished-at="2025-03-26T15:23:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDBConnection -->
+      </class> <!-- testCaseRepo.TC_003 -->
+      <class name="testCaseRepo.TC_004">
+        <test-method is-config="true" signature="lanchBrowser()[pri:0, instance:testCaseRepo.TC_004@4a94ee4]" started-at="2025-03-26T15:23:02 IST" name="lanchBrowser" finished-at="2025-03-26T15:23:05 IST" duration-ms="2946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanchBrowser -->
+        <test-method is-config="true" signature="loginOperation()[pri:0, instance:testCaseRepo.TC_004@4a94ee4]" started-at="2025-03-26T15:23:05 IST" name="loginOperation" finished-at="2025-03-26T15:23:10 IST" duration-ms="4995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginOperation -->
+        <test-method signature="con_001()[pri:0, instance:testCaseRepo.TC_004@4a94ee4]" started-at="2025-03-26T15:23:10 IST" name="con_001" finished-at="2025-03-26T15:23:30 IST" duration-ms="20023" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[con_001-> on test Start]]>
+            </line>
+            <line>
+              <![CDATA[con_001-> on test Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- con_001 -->
+        <test-method is-config="true" signature="signOutOperation()[pri:0, instance:testCaseRepo.TC_004@4a94ee4]" started-at="2025-03-26T15:23:30 IST" name="signOutOperation" finished-at="2025-03-26T15:23:33 IST" duration-ms="2874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOutOperation -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:testCaseRepo.TC_004@4a94ee4]" started-at="2025-03-26T15:23:33 IST" name="CloseBrowser" finished-at="2025-03-26T15:23:33 IST" duration-ms="363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- testCaseRepo.TC_004 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
